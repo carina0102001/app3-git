@@ -2,13 +2,13 @@
 
 <widget xmlns = "http://www.w3.org/ns/widgets"
 xmlns:gap = "http://phonegap.com/ns/1.0"
-id ="com.phonegap.app2"
+id ="com.phonegap.app3"
 version = "1.0.0">
 
-<name>app2-2019Especialidad tecnico en programacion </name>
+<name>app3-Dia mundial de la salud </name>
 
 <description>
-aplicacion que nos muestra los modulos de la especialidad de tecnico en programacion
+Dia mundial de la salud
 </description>
 
 <author href="https://build.phonegap.com" email="carina.cm813@gmail.com">
