@@ -5,10 +5,10 @@ xmlns:gap = "http://phonegap.com/ns/1.0"
 id ="com.phonegap.app3"
 version = "1.0.0">
 
-<name>app3-Dia mundial de la salud </name>
+<name>app3-Dia mundial de la salud</name>
 
 <description>
-Dia mundial de la salud
+Aplicación que nos informa sobre lo que es el dia mundial de la salud
 </description>
 
 <author href="https://build.phonegap.com" email="carina.cm813@gmail.com">
@@ -22,13 +22,13 @@ Carina Martinez Nieto
 <preference name="target-device"   value="universal"/>
 <preference name="fullscreen"     value="true"/>
 <preference name="android-installLocation"  value="auto"/>
-<preference name="permissions" value="INTERNET"/>
 
 <!--plugins-->
 <plugin name="cordova-plugin-device" spec="~1.1.4"/>
 <plugin name="cordova-plugin-vibration" spec="~2.1.3"/>
 <plugin name="cordova-plugin-dialogs" spec="~1.3.1"/>
 <!-- <plugin name="cordova-plugin-geolocation" source="npm"/> -->
+<preference name="permissions" value="INTERNET"/>
 <!--para accesar a paginas en internet-->
 <allow-intent href="https://*/*"/>
 <acces origin="https://*/*"/>
@@ -37,7 +37,6 @@ Carina Martinez Nieto
 <plugin name="cordova-plugin-whitelist" source="npm"/>
 
 <!-- Colocar icono app -->
-
-<icon src="../../app3/res/android/mdp13.png"/>
+<icon src="res/android/health-icon.png"/>
 
 </widget>
