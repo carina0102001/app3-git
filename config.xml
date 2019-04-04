@@ -38,6 +38,6 @@ Carina Martinez Nieto
 
 <!-- Colocar icono app -->
 
-<icon src="res/android/mdp13.png"/>
+<icon src="../../app3/res/android/health-icon.png"/>
 
 </widget>
